@@ -2,7 +2,7 @@
 
 xhost +local:docker
 
-sudo docker run -it --rm --net=host \
+docker run -it --rm --net=host \
 -v "$(pwd)/shared:/shared" \
 -v "$(pwd)/ros2_ws:/ros2_ws" \
 --device /dev/video0:/dev/video0 \
