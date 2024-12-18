@@ -31,7 +31,7 @@ RUN apt update \
         libccd-dev \
         net-tools \
         iputils-ping \
-	v4l-utils
+	v4l-utils \
  && apt clean
 
 RUN apt update \
