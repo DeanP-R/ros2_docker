@@ -20,7 +20,7 @@ jobs:
 
       # Step 3: Generate Doxygen Documentation
       - name: Generate Documentation
-        run: doxygen Doxyfile
+        run: doxygen docs/Doxyfile
 
       # Step 4: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
